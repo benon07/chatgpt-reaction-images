@@ -7,7 +7,7 @@ ChatGPTのパーソナライズで使用するリアクション画像を、GitH
 ## Markdown
 
 ```markdown
-![image](https://benon07.github.io/chatgpt-reaction-images/images/smile.png)
+![image](https://benon07.github.io/chatgpt-reaction-images/images/smile.svg)
 ![image](https://benon07.github.io/chatgpt-reaction-images/images/thumbs-up.png)
 ![image](https://benon07.github.io/chatgpt-reaction-images/images/laugh.png)
 ![image](https://benon07.github.io/chatgpt-reaction-images/images/think.png)
@@ -17,5 +17,3 @@ ChatGPTのパーソナライズで使用するリアクション画像を、GitH
 ![image](https://benon07.github.io/chatgpt-reaction-images/images/calm.png)
 ![image](https://benon07.github.io/chatgpt-reaction-images/images/sad.png)
 ```
-
-`smile.png` は元画像の取得後に追加します。

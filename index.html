@@ -21,13 +21,13 @@
   <main class="grid" id="grid"></main>
   <script>
     const images = [
-      ['thumbs-up', '励まし・勇気づけ'], ['laugh', 'おどけ'], ['think', '思案'],
+      ['smile', '笑顔'], ['thumbs-up', '励まし・勇気づけ'], ['laugh', 'おどけ'], ['think', '思案'],
       ['surprise', '驚き'], ['smug', 'ドヤ'], ['angry', '怒り'],
       ['calm', '落ち着き'], ['sad', '同情']
     ];
     const base = `${location.origin}${location.pathname}images/`;
     document.querySelector('#grid').innerHTML = images.map(([file, label]) =>
-      `<article><img src="images/${file}.png" alt="${label}"><strong>${label}</strong><br><code>![image](${base}${file}.png)</code></article>`
+      `<article><img src="images/${file === 'smile' ? 'smile.svg' : `${file}.png`}" alt="${label}"><strong>${label}</strong><br><code>![image](${base}${file === 'smile' ? 'smile.svg' : `${file}.png`})</code></article>`
     ).join('');
   </script>
 </body>
